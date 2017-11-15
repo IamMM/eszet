@@ -25,6 +25,12 @@ a:focus {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+
 /*
 * Home
 */
@@ -63,3 +69,22 @@ a:focus {
 .inverser:hover {
  color: ghostwhite;
 }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+  .heading {
+     font-size: 10em; 
+  }
+  
+  .socials {
+     margin: 30px; 
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+  .socials {
+     margin: 30px; 
+  }
+}
+
