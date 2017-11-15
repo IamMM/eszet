@@ -9,8 +9,16 @@ Version: 1.0
 * Globals
 */
 
-body {
+html, body { 
   background: url(img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  
   font-family: 'Roboto Slab', sans-serif;
 }
 
@@ -60,6 +68,7 @@ img {
 
 .socials a {
  text-transform: uppercase;
+  font-size: 0.75em;
 }
 
 .inverse {
@@ -72,19 +81,25 @@ img {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
+  #video-container {
+     padding: 0; 
+  }
+  
   .heading {
      font-size: 10em; 
   }
   
   .socials {
-     margin: 30px; 
+     margin-top: 30px; 
+    margin-bottom: 30px;
   }
 }
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) { 
   .socials {
-     margin: 30px; 
+     margin-top: 30px; 
+    margin-bottom: 30px;
   }
 }
 

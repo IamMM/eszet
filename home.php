@@ -6,7 +6,7 @@ Template Name: Startseite
 
 <?php get_header();?>
 
-<div class="container">
+<div id="video-container" class="container">
 <div class="embed-responsive embed-responsive-16by9">
    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ixmb148iLKI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
