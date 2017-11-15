@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html <?php language_attributes();?>>
+ <!-- code by
+               __    __          
+____________ _/  |__/  |_  ____  
+\_  __ \__  \\   __\   __\/ __ \ 
+ |  | \// __ \|  |  |  | \  ___/ 
+ |__|  (____  /__|  |__|  \___  >
+            \/                \/ 
+     
+    2017 -->
   <head>
     <meta charset="<?php bloginfo('charset');?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
