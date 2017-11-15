@@ -1,0 +1,65 @@
+/*
+Theme Name: ESZET
+Author: Maximilian Maske
+Description: Theme for Imbiß - die beste Band der Welt.
+Version: 1.0
+*/
+
+/*
+* Globals
+*/
+
+body {
+  background: url(img/bg.jpg) no-repeat center center fixed; 
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  color: ghostwhite;
+  transition: 500ms;
+  text-decoration: none;
+}
+
+/*
+* Home
+*/
+
+.heading {
+  font-family: Times, serif;
+  font-style: italic;
+  color: gainsboro;
+  text-align: center;
+  font-size: 15em;
+}
+
+.heading > a,
+.heading > a:hover,
+.heading > a:focus {
+  color: gainsboro;
+}
+
+.strip-container {
+  background-color: white;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 5px double black;
+}
+
+.socials a {
+ text-transform: uppercase;
+}
+
+.inverse {
+  color: gainsboro;
+}
+
+.inverser:hover {
+ color: ghostwhite;
+}
