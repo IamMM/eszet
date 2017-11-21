@@ -93,23 +93,9 @@ footer a:hover,
   .heading {
     font-size: 10em; 
   }
-
-  .socials {
-    margin-top: 30px; 
-    margin-bottom: 30px;
-  }
 }
 
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767px) { 
-  .socials {
-    margin-top: 30px; 
-    margin-bottom: 30px;
-  }
-}
-
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991px) { 
+@media (max-width: 1200px) { 
   .socials {
     margin-top: 30px; 
     margin-bottom: 30px;
