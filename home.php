@@ -8,7 +8,7 @@ Template Name: Startseite
 
 <div id="video-container" class="container">
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://player.vimeo.com/video/243924953?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/243924953?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
 </div>
 
