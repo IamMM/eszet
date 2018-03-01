@@ -2,5 +2,6 @@
 Wordpress Template with Bootstrap for Imbiß - the best band in the world
 
 
-![alt text](https://github.com/IamMM/eszet/blob/master/screenshot.png "Screenshot")
+![screenshot](https://github.com/IamMM/eszet/blob/master/screenshot.png "Screenshot")
 
+online at [tanztihrschweine.de](http://tanztihrschweine.de/)
