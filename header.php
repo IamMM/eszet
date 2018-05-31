@@ -19,8 +19,18 @@ ____________ _/  |__/  |_  ____
 
     <title><?php bloginfo('name'); ?></title>
 
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Imbiß - mit eszet" />
+    <meta property="og:type" content="band" />
+    <meta property="og:url" content="http://tanztihrschweine.de/" />
+    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/img/pommes.jpg" />
+    <meta property="og:description" content="Eine Stange Dynamit" />
+
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Swiper styles CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/css/swiper.min.css">
 
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
@@ -38,7 +48,7 @@ ____________ _/  |__/  |_  ____
         <a id="fb" href="https://www.facebook.com/tanztihrschweine/" target="_blank">Facebook</a>&nbsp;&nbsp; | &nbsp; 
         <a id="bc" href="https://imbisz.bandcamp.com" target="_blank">Bandcamp</a> &nbsp; | &nbsp; 
         <a id="sc" href="https://soundcloud.com/imbisz" target="_blank">SoundCloud</a> &nbsp; | &nbsp;&nbsp; 
-        <a id="yt" href="https://www.youtube.com/channel/UCdUy73EVbUu54R8n7yQr9SQ" target="_blank">YouTube</a>
+        <a id="yt" href="https://www.youtube.com/channel/UCdUy73EVbUu54R8n7yQr9SQ/videos" target="_blank">YouTube</a>
       </p>
 
       <h1 class="heading"><a href="/">Imbiß</a></h1>
