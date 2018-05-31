@@ -20,8 +20,8 @@ ____________ _/  |__/  |_  ____
     <title><?php bloginfo('name'); ?></title>
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="Imbiß - mit eszet" />
-    <meta property="og:type" content="band" />
+    <meta property="og:title" content="imbiß - mit eszet" />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="http://tanztihrschweine.de/" />
     <meta property="og:image" content="<?php bloginfo('template_url'); ?>/img/pommes.jpg" />
     <meta property="og:description" content="Eine Stange Dynamit" />
