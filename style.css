@@ -36,7 +36,7 @@ img {
 
 footer,
 .socials a {
- font-size: 0.8em; 
+  font-size: 0.8em; 
 }
 
 footer a:hover,
@@ -82,6 +82,38 @@ footer a:hover,
 
 .inverser:hover {
   color: ghostwhite;
+}
+
+.swiper-pagination{
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+ margin-right: 10px; 
+}
+
+.swiper-pagination-bullet:last-child {
+ margin-right: 0; 
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-button-prev {
+  background-image: url(img/arrow_left.svg);
+  opacity: 0;
+}
+
+.swiper-button-next{
+  background-image: url(img/arrow_right.svg);
+  opacity: 0;
+}
+
+.swiper-container:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-next {
+  opacity: 1;
+  transition: 500ms;
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/

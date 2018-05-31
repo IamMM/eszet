@@ -18,7 +18,11 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url');?>/js/bootstrap.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/js/swiper.min.js"></script>
+
+<script src="<?php bloginfo('template_url');?>/js/script.js"></script>
+
 
 </body>
 </html>
