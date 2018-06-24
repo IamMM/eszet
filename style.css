@@ -55,12 +55,17 @@ footer a:hover,
   color: gainsboro;
   text-align: center;
   font-size: 15em;
+  letter-spacing: 0;
 }
 
 .heading > a,
 .heading > a:hover,
 .heading > a:focus {
   color: gainsboro;
+}
+
+.heading > a:hover {
+  letter-spacing: 0.03em;
 }
 
 .strip-container {
