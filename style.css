@@ -136,6 +136,10 @@ footer a:hover,
   .heading {
     font-size: 10em; 
   }
+  
+  .img-heading {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1200px) { 
