@@ -51,5 +51,6 @@ ____________ _/  |__/  |_  ____
         <a id="yt" href="https://www.youtube.com/channel/UCdUy73EVbUu54R8n7yQr9SQ/videos" target="_blank">YouTube</a>
       </p>
 
-      <h1 class="heading"><a href="/">Imbiß</a></h1>
+      <a class="img-heading center-block" href="/"><img src="<?php bloginfo('template_directory') ?>/img/imbisz_tag.png" alt="imbiß gekrakel"></a>
+<!--      <h1 class="heading"><a href="/">Imbiß</a></h1>-->
     </div>
