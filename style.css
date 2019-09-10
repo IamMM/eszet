@@ -10,7 +10,7 @@ Version: 1.0
 */
 
 html, body { 
-  background: url(img/bg_tisch.jpg) no-repeat center center fixed; 
+  background: url(img/bg_pommes.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,6 +81,12 @@ footer a:hover,
   margin-bottom: 40px;
   padding: 20px;
   border: 5px double black;
+}
+
+.eilmeldung {
+    border: 8px dashed red;
+    max-width: 750px;
+    text-align: center;
 }
 
 .socials a {
